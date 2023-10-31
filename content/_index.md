@@ -21,6 +21,10 @@ Sur le stand Spot in, Juliane, Barthélémy ou Nicolas sont prêts à vous montr
 
 ## En savoir plus
 
-- [Bienne: un parcours qui allie sport et culture](https://www.rjb.ch/rjb/Actualite/Region/20230527-Bienne-un-parcours-qui-allie-sport-et-culture.html)
 - la [documentation de Spot in](https://docsspotinch.netlify.app/) en cours de rédaction
 - le [compte GitHub](https://github.com/spotin/spotin) de développement
+
+## Dans la presse
+
+- RJB: [Bienne: un parcours qui allie sport et culture](https://www.rjb.ch/rjb/Actualite/Region/20230527-Bienne-un-parcours-qui-allie-sport-et-culture.html)
+- Le Matin: [Des sculptures pour faire de la gym](https://www.lematin.ch/story/des-sculptures-pour-faire-de-la-gym-397446670910)
