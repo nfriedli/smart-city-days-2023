@@ -1,0 +1,16 @@
+@page {
+    margin: 2cm;
+}
+
+* {
+    background-color: unset;
+    color: #000;
+}
+
+header, footer {
+    display: none;
+}
+
+a::after {
+    content: " [" attr(href) "] ";
+}

@@ -1,0 +1,35 @@
+:root {
+    --fonts: Inter, system-ui, Roboto, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+html { 
+    background: #EEE;
+    font-family: var(--fonts);
+    font-size: 100%;
+    font-size: clamp(1rem,calc(.91rem + .23vw),1.19rem);
+    line-height: 1.6;
+}
+
+body {
+    background: #FFF;
+    margin: 1rem auto;
+    max-width: 30rem;
+    padding: 1rem;
+}
+
+body > * + * {
+    margin-top: 4rem;
+}
+
+header, footer {
+    font-size: 85%;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+a {
+    color: #d12522;
+}

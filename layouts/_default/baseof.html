@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ site.LanguageCode }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>{{ .Title }} - {{ site.Title }}</title>
+
+    {{ $screen := resources.Get "css/screen.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $screen.RelPermalink }}" media="screen" />
+
+    {{ $print := resources.Get "css/print.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $print.RelPermalink }}" media="print" />
+
+    {{ with .Params.description }}
+    <meta name="description" content="{{ . }}" />
+    {{ else }}
+    <meta name="description" content="{{ .Summary }}" />
+    {{ end }}
+
+    <link rel="canonical" href="{{ .Permalink }}" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    {{ hugo.Generator }}
+  </head>
+
+  <body>
+    <header>{{ site.Title }}</header>
+
+    <main>{{ block "main" . }}{{ end }}</main>
+
+    <footer>{{ site.Params.footer | .RenderString }}</footer>
+  </body>
+</html>
