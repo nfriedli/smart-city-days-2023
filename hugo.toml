@@ -1,6 +1,6 @@
-baseURL = "https://smartcitydays2023.netlify.app/"
+baseURL = "https://smartcityday2023.netlify.app/"
 languageCode = "fr-ch"
-title = "Smart City Days 2023"
+title = "Smart City Day 2023"
 
 
 [params]
