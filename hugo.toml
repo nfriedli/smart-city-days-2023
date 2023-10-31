@@ -4,4 +4,4 @@ title = "Smart City Day 2023"
 
 
 [params]
-footer = """Cette page a été développée ce matin même comme exemple pratique et rapide. Les sources sont disponibles sur [GitHub](https://github.com/nfriedli/smart-city-days-2023). Le site est déployé automatiquement chez Netlify."""
+footer = """Cette page a été développée ce matin même comme exemple pratique et rapide. Les sources sont disponibles sur [GitHub](https://github.com/nfriedli/smart-city-days-2023). Le site est déployé automatiquement chez [Netlify](https://www.netlify.com/) et généré par [Hugo](https://gohugo.io/)."""
