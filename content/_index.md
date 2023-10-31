@@ -2,7 +2,7 @@
 title: Spot in
 ---
 
-Cette page existe durant la journée du 31 octobre 2023 pour tester [Spot in](https://spotin.ch/) aux [Smart City Day](https://www.smartcityday.ch/) à Neuchâtel.
+Cette page existe durant la journée du 31 octobre 2023 pour tester [Spot in](https://spotin.ch/) au [Smart City Day](https://www.smartcityday.ch/) à Neuchâtel.
 
 ![Logo Spot in](/spotin.png)
 
